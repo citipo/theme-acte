@@ -15,15 +15,17 @@
         <div class="home-jumbo-intro-container">
             <div class="home-jumbo-intro home-jumbo-intro-{{ jumbo_position }}">
                 <div class="home-jumbo-intro-view">
-                    <h2 data-aos="fade-up" data-aos-duration="600">
-                        {{ jumbo_title }}
-                    </h2>
+                    <div data-aos="fade-up" data-aos-duration="600">
+                        <h2>
+                            {{ jumbo_title }}
+                        </h2>
 
-                    <div class="home-jumbo-intro-split" data-aos="fade-up" data-aos-duration="600"></div>
+                        <div class="home-jumbo-intro-split"></div>
 
-                    <p data-aos="fade-up" data-aos-duration="600">
-                        {{ jumbo_content|raw }}
-                    </p>
+                        <p>
+                            {{ jumbo_content|raw }}
+                        </p>
+                    </div>
                 </div>
 
                 <!--
