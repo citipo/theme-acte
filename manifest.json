@@ -38,6 +38,9 @@
         "trombinoscope-view": "src/trombinoscope/view.html.twig"
     },
     "assets": [
-        "assets/home-default.jpg"
+        "assets/button-bg.svg",
+        "assets/home-default.jpg",
+        "assets/home-section-1.jpg",
+        "assets/posts-bg.png"
     ]
 }
