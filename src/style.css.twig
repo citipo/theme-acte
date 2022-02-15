@@ -297,8 +297,13 @@ body {
 .home-about-us-left .home-blocks-block {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 647px;
-    padding-right: 40px;
+    padding: 0 15px;
+}
+@media (min-width: 992px) {
+    .home-about-us-left .home-blocks-block {
+        padding: 0 40px 0 0;
+        max-width: 647px;
+    }
 }
 .home-about-us-right {
     background: var(--assets-home-section-1-jpg) no-repeat 50% 50%;
