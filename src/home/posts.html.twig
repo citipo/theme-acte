@@ -6,8 +6,8 @@
     {% if posts|length > 0 %}
         <div class="home-blocks-block-posts-row">
             {% for key, post in posts %}
-                <div data-aos="fade-up" data-aos-duration="600">
-                    <div class="zoom-hover">
+                <div class="zoom-hover">
+                    <div data-aos="fade-up" data-aos-duration="600">
                         <div class="home-blocks-block-posts-item home-blocks-block-posts-item-{{ key }} home-blocks-block-posts-row-{{ (key / 3)|round(0, 'floor') }} box-offset">
                             <div class="home-blocks-block-posts-item-thumbnail">
                                 {% if post.videoImage|default(null) %}
